@@ -24,7 +24,18 @@ cd..
 
 git status
 
-<!-- track file before saving to Git -->
+<!-- track file before saving/committing to Git -->
 
 git add . (for all files)
 git add <!-- file name, e.g. index.html -->
+
+<!-- commit, i.e. save locally -->
+<!-- -m means message and is necessary -->
+
+git commit -m "text"
+
+<!-- push to Github -->
+
+<!-- origin = location of Git repository, main = branch -->
+
+git push origin main
